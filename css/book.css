@@ -1,0 +1,54 @@
+.form-book { margin:20px 0px;}
+.form-book .col1_2{ width:680px; float:left;margin-left:10px;}
+.form-book .col2_2{ width:270px; float:right;margin-right:10px;}
+.form-book .col2_2 ul{color:#666666; margin: 0; padding: 0 8px;}
+.book-step li{background:url(../images/sprites.png) no-repeat scroll 3px 14px transparent;list-style:none outside none;padding:10px 0 10px 20px;}
+.main_tour_bo{background:none repeat scroll 0 0 #FFF;border:1px solid #D9DBCD;display:inline;float:left;margin-bottom:5px;padding-bottom:10px;width:680px;}
+.top_tour_bo{background:#E8E7E7;float:left;height:32px;width:100%;line-height:17px;}
+.top_tour_bo h1{color:#444;float:left;font-size:16px; font-family:Arial; padding-left:15px;padding-top:6px;margin:0;}
+.con_img_bo{display:inline;float:left;margin-left:10px;margin-top:10px;}
+.con_tour_bo{border-bottom:1px solid #F1F1F1;color:#555;display:inline;float:left;margin-left:15px;margin-top:10px;padding-bottom:15px;width:512px;}
+.con_tour_bo .duration{display:inline;float:left;margin-top:12px;}
+.con_tour_bo .price{border-bottom:1px dotted #F1F1F1;display:inline;float:right;line-height:26px;margin-right:5px;width:155px;}
+.con_tour_bo .destination{display:inline;float:left;line-height:18px;margin-top:12px;width:340px;}
+.con_tour_bo .price b{color:#F60;font-size:15px;}
+.con_class_group{display:inline;float:left;margin-bottom:10px;margin-left:10px;margin-top:20px;width:661px;}
+.box_clas_group{background:none repeat scroll 0 0 #F1FEE9;border:1px solid #F1F1F1;color:#555;display:inline;float:left;width:458px;padding:8px;}
+.col_class{float:left;width:150px;}
+.box_clas_group b{float:left;padding-bottom:5px; font-size:12px}
+.col_class select{color:#444;float:left;font-size:15px;font-weight:400;width:150px;}
+.con_class_group select{border:1px solid #DDD;}
+.col_group{display:inline;float:left;margin-left:15px;width:85px;}
+.col_group select{color:#444;float:left;width:85px; padding:2px;}
+.box_tour_start{background:#F1FEE9;border:1px solid #F1F1F1;color:#555;display:inline;float:right;width:154px;padding:8px;}
+.col_class input{color:#555;float:left; padding-right:18px; width:132px; height:22px; margin-top:6px; background:#fff url(../images/calendar.png) no-repeat 130px center; border:1px solid #DDD;}
+.main_fill_bo{background:none repeat scroll 0 0 #FFF;border:1px solid #D9DBCD;display:inline;float:left;margin-bottom:5px;margin-top:5px;padding-bottom:10px;width:682px;}
+.top_fill_bo{background:#E8E7E7;border-bottom:1px solid #F1F1F1;height:32px; line-height:32px;width:100%;}
+.top_fill_bo h1{color:#555;float:left;font-size:16px; font-family:Arial; padding:0 0 0 15px;}
+.top_fill_bo font{background:url(../images/ic_book.gif) no-repeat left center;color:#444;float:right;font-size:14px;margin-right:5px; padding:0px 5px 0 25px; text-decoration:none;}
+.con_fill_bo{padding:20px;}
+.customize_line{display:inline-block;width:100%;clear:both;margin-bottom:12px;}
+.customize_line .line_form_custom1{width:15%;float:left;color:#690;}
+.customize_line .ta_addre_cus{border:1px solid #DDD;color:#444;width:460px;height:50px;padding:4px;}
+.customize_line .full_textarea{border:1px solid #DDD;color:#444;width:530px;height:300px;padding:4px;}
+.customize_line label.tit{width:160px;font-size:13px;padding-right:20px; float:left;height:24px;line-height:24px; text-align:right;}
+.customize_line .isoTxt{height:22px;border:1px solid #D1D1D1;padding:0 4px;}
+.customize_line .textarea{border:1px solid #D1D1D1;padding:4px 4px; width:260px; height:100px;}
+.customize_line .slb{border:1px solid #D1D1D1;height:24px;width:160px;float:left;margin-right:10px;padding:2px;}
+.customize_line .medium_slb{width:260px;}
+.customize_line .medium{width:260px;}
+.customize_line .short{width:60px;}
+.customize_line .group_items{float:left;}
+.customizeBtn{background:#366AB1;color:#fff !important;border:0;cursor:pointer;width:80px;padding:10px 30px; font-weight:bold;}
+.main_tour_cus .content,
+input.error{ border-color: #c00000 !important}
+label.error{ display:none !important}
+.box_tour_tieude
+{
+padding-left: 10px;
+/* padding-top: 10px; */
+/* padding-bottom: 0px; */
+font-size: 16px;
+display: block;
+line-height: 32px;
+}

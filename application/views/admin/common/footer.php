@@ -1,0 +1,1 @@
+<div id="footer">Copyright 2011 - 2018. All rights reserved</div><!--End footer-->

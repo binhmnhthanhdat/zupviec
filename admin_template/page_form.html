@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Page list show</title>
+<link rel="stylesheet" type="text/css" href="/web_demo/test/admin_template/stylesheet/style_admin.css">
+<script type="text/javascript" src="/web_demo/test/admin_template/javascript/jquery/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="/web_demo/test/admin_template/javascript/jquery/superfish/js/superfish.js"></script>
+<script type="text/javascript" src="/web_demo/test/admin_template/javascript/jquery/tabs.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		// Tabs
+		$('#tabs a').tabs();
+		
+		// Menu
+		$('#menu > ul').superfish({
+			hoverClass	 : 'sfHover',
+			pathClass	 : 'overideThisToUse',
+			delay		 : 0,
+			animation	 : {height: 'show'},
+			speed		 : 'normal',
+			autoArrows   : false,
+			dropShadows  : false, 
+			disableHI	 : false, /* set to true to disable hoverIntent detection */
+			onInit		 : function(){},
+			onBeforeShow : function(){},
+			onShow		 : function(){},
+			onHide		 : function(){}
+		});
+	
+		$('#menu > ul').css('display', 'block');
+		
+		
+		$('#dashboard').addClass('selected');
+		
+	});
+</script>
+</head>
+
+<body>
+
+<div id="container">
+	<div id="header">
+    	<div class="div1">
+        	<div class="div2"><img src="/web_demo/test/admin_template/image/logo.png" /></div>
+        </div>
+        <div id="menu">
+        	<ul class="left">
+            	<li id="dashboard"><a href="#" class="top">Admin page</a></li>
+                <li><a href="#" class="top">Catelog</a>
+                	<ul>
+                    	<li><a href="#">Categories</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Options</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="top">News</a></li>
+                <li><a href="#" class="top">Advertise</a></li>
+                <li><a href="#" class="top">System</a>
+                	<ul>
+                    	<li><a href="#">Setting</a>
+                        <li><a href="#">Location</a>
+                        <li><a href="#">Backup/Restore</a>
+                    	<li><a href="#" class="parent">User</a>
+                        	<ul>
+                            	<li><a href="#">User</a></li>
+                                <li><a href="#">User groups</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--End menu-->
+    </div><!--End header-->
+    <div id="content">
+    	<div class="breadcrumb">
+        	<a href="#">Home</a> :: <a href="page_list.html">Page list</a>
+        </div><!--End breadcrumb-->
+        <div class="warning">Xin chào! Bạn đã sử dụng phần mềm này</div>
+        <div class="box">
+        	<div class="heading">
+            	<h1><img src="/web_demo/test/admin_template/image/category.png" /> Danh mục</h1>
+                <div class="buttons">
+                	<a href="#" class="button">Save</a>
+                    <a href="#" class="button">Cancel</a>
+                </div>
+            </div><!--End heading-->
+            <div class="content">
+            	<div id="tabs" class="htabs">
+                	<a href="#tab_1" class="selected">Tab 1</a>
+                    <a href="#tab_2">Tab 2</a>
+                    <a href="#tab_3">Tab 3</a>
+                </div><!--End tabs-->
+                
+                <form action="#" method="post" enctype="multipart/form-data">
+                	<div id="tab_1" style="display:block;">
+                    	<table class="form">
+                        	<tbody>
+                            	<tr>
+                                	<td width="18%">Category name:<br /><span class="help">Vui lòng nhập tên Danh mục</span></td>
+                                  <td width="82%"><input type="text" size="100" name="category" /></td>
+                              </tr>
+                                <tr>
+                                	<td>Description:</td>
+                                    <td><textarea name="desc" rows="5" cols="50"></textarea></td>
+                                </tr>
+                                 <tr>
+                                	<td>Meta tag Keywords:</td>
+                                    <td><textarea name="desc" rows="5" cols="50"></textarea></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="tab_2" style="display:none;">Noi dung tabs 2</div>
+                    <div id="tab_3" style="display:none;">Noi dung tabs 3</div>
+                </form>
+                
+            </div><!--End content-->
+        </div><!--End box-->
+        
+    </div><!--End content-->
+    <div id="footer">Nettina &copy;Copyright 2011. All rights reserved</div><!--End footer-->
+</div><!--End container-->
+
+</body>
+</html>
